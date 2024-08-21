@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+ul, ol {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    margin:  0 auto;
+    padding: 0 20px;
+}
+header{
+    padding: 40px 0 ;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    gap: 50px;
+}
+.header__link{
+    color: #83888F;
+    font-size: 15px;
+    line-height: 15px;   
+    text-transform: uppercase;
+}
+.header__logo{
+    width: 236px;
+}
+.closed__menu {
+    display: none;
+}
+
+.burger__menu {
+    max-width: 300px;
+    height: 100vh;
+    background-color: #2C343E;
+    color: white;
+    padding: 20px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+
+.close__btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 27px;
+    margin-left: 95px;
+}
+
+.burger__list {
+    margin-top: 30px;
+    text-align: center;
+}
+.burger__item {
+    margin-bottom: 20px;
+}
+
+.burger__link {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn__open {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 30px;
+}
+
+.btn {
+    display: none;
+}
+
+main{
+    margin-top: 30px;
+}
+.main__coffee {
+    z-index: -1;
+    max-width: 1111px;
+    margin: 0 auto; 
+    margin-bottom: -200px;   
+    display: block;
+}
+
+.main__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.main__box {
+    max-width: 255px;
+    text-align: center;
+}
+
+.main__title {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 800;
+    margin-top: 58px;
+    margin-bottom: 24px;
+}
+
+.main__text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #333D4B;
+}
+
+.main__img {
+    max-width: 234px;
+}
+
+@media screen and (max-width: 1130px) {
+    .main__coffee{
+        width: 830px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .main__img{
+        max-width: 180px;
+    }
+
+    .main__title {
+        font-size: 18px;
+    }
+    .main__text{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .main__coffee {
+        max-width: 680px;
+    }
+
+    .main__content {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .main__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 580px;
+        margin-bottom: 32px;
+    }
+
+    .main__text--box {
+        text-align: start;
+        max-width: 282px;
+    }
+
+    .main__img {
+        max-width: 234px;
+    }
+
+    .main__title {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    .main__text {
+        font-size: 16px;
+        line-height: 28px
+    }
+}
+@media screen and (max-width: 710px) {
+    .main__coffee {
+        max-width: 580px;
+    }
+}
+@media screen and (max-width: 690px) {
+    .header__list{
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 610px) {
+    .header__logo{
+        width: 150px;
+    }
+    .main__coffee {
+        max-width: 530px;
+    }
+
+    .main__title{
+        font-size: 18px;
+    }
+    .main__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+}
+
+@media screen and (max-width: 522px) {
+    .header__link{
+        font-size: 13px;
+    }
+    .header__list{
+       gap: 17px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main__coffee {
+        max-width: 375px;
+    }
+
+    .main__content {
+        margin-top: 50px;
+    }
+
+    .main__box {
+        flex-direction: column;
+    }
+
+    .main__coffe {
+        max-width: 200px;
+    }
+
+    .main__text--box {
+        text-align: center;
+    }
+
+    .main__title {
+        font-size: 24px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .main__text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .btn {
+        display: block;
+    }
+
+    .header__list {
+        display: none;
+    }
+}
+@media screen and (max-width: 380px) {
+    .main__coffee {
+        max-width: 290px;
+    }
+}
