@@ -358,3 +358,142 @@ main{
     padding: 10px 20px;
     }
 }
+
+.why__container{
+    margin-top: 150px;
+    max-height: 577px;
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+.intro__content{
+    padding-bottom: 150px;
+    text-align: center;
+    color: #fff;
+}
+.intro__text{
+    text-align: center;
+    padding-top: 32px;
+}
+.intro__title{
+    padding-top: 35px;
+}
+.why__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.why__box{
+    width: 350px ;
+    height: 382px ;
+    background-color:  #0E8784;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+.why__img{
+    padding-top: 72px;
+}
+.why__title{
+    padding-top: 56px;
+    padding-bottom: 24px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #fff;
+}
+.why__text--box{
+    text-align: center;
+}
+.why__text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;    
+}
+.why__img{
+    width: 72px;
+    height: 72px;
+}
+@media screen and (max-width: 1110px) {
+    .why__box{
+        width: 280px ;
+        height: 352px ;
+    }
+}
+@media screen and (max-width: 940px) {
+    .why__content{
+        flex-direction: column;
+    }
+    .why__box{
+        display: flex;
+        width: 700px ;
+        height: 100px;
+        text-align: left;
+        margin-bottom: 40px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .why__img{
+       width: 56px;
+       height: 56px;
+       padding-right: 5px;
+    }
+    .how__container{
+        margin-top: 300px;
+    }
+    
+}
+@media screen and (max-width: 850px) {
+    .why__content{
+        flex-direction: column;
+    }
+    .why__box{
+        width:279px ;
+        height: 382px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .how__container{
+        margin-top: 1152px;
+    }
+}
+footer{
+    margin-top: 50px;
+}
+.footer__container{
+    background-color: #2C343E;
+}
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.footer__list{
+    display: flex;
+    gap: 50px;
+}
+.footer__link{
+    color: #fff;
+}
+.footer__img{
+    padding-left: 25px;
+}
+@media screen and (max-width: 780px) {
+    .footer__content{
+        flex-direction: column;
+    }
+    .footer__list{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+}
+@media screen and (max-width: 447px) {
+    .footer__list{
+        flex-direction: column;
+        text-align: center;
+    }
+}
