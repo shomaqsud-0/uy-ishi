@@ -481,7 +481,7 @@ footer{
 .footer__img{
     padding-left: 25px;
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
     .footer__content{
         flex-direction: column;
     }
